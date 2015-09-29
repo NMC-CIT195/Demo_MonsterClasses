@@ -1,18 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
   <Class Name="Demo_MonsterClasses.SpaceMonster">
-    <Position X="9.25" Y="1" Width="2.25" />
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
     <NestedTypes>
-      <Enum Name="Demo_MonsterClasses.SpaceMonster.DispositionType" Collapsed="true">
+      <Enum Name="Demo_MonsterClasses.SpaceMonster.DispositionType">
         <TypeIdentifier>
           <NewMemberFileName>SpaceMonster.cs</NewMemberFileName>
         </TypeIdentifier>
       </Enum>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AQAAIAAABAAAEIQAQABAAEQAkAAAAAAAAQIAAAAAAAA=</HashCode>
+      <HashCode>AQAAIAAABAAAEAQAQABAAEQAEAACAAAAAQIAEAAAAAQ=</HashCode>
       <FileName>SpaceMonster.cs</FileName>
       <NewMemberFileName>SeaMonster.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Demo_MonsterClasses.SeaMonster">
+    <Position X="4.25" Y="0.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Demo_MonsterClasses.SeaMonster.DispositionType">
+        <TypeIdentifier>
+          <NewMemberFileName>SeaMonster.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAIAAAhAAABIQASAAAAAQAkAAQAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>SeaMonster.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
